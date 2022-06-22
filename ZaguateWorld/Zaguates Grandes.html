@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Zaguate World</title>
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="images/sun.png" alt="sunshine" />
+        
+
+        <div id="main">
+            <!--Cabecera-->
+            <div id="logo">
+                <img src="images/logo.png" id="pica">
+            </div>
+
+            <!--Navegacion-->
+            <div class="topnav responsive" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="Conciencia.html">Conciencia</a>
+                <a href="Noticias.html">Noticias</a>
+                <a href="Galeria.html">Galeria</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Adoptar 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="Zaguates Pequeños.html">Zaguates Pequeños</a>
+                    <a href="Zaguates Medianos.html">Zaguates Medianos</a>
+                    <a href="#home">Zaguates Grandes</a>
+                  </div>
+                </div> 
+                <a href="Acerca de Nosotros.html">Acerca de nosotros</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+            <main>
+                <article id="artprin">
+                    <div>
+                        <h1> Zaguates grandes en adopción </h1>
+                        Si estas buscando una mascota grande, aquí podrás observar algunas opciones 
+                        que te puedan dar un amor tan grande como su tamaño
+                        <br><br>
+                    </div>
+                </article>
+                <div id="Disponibles">
+                    <h1>Disponibles</h1>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Genero</th>
+                            <th>Edad</th>
+                            <th>Descripción</th>
+                            <th>Fotografia</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="scrolls">
+                    <table>
+                        <tr>
+                            <td>Candy</td>
+                            <td>Hembra</td>
+                            <td>2 años</td>
+                            <td>Es muy cariñosa y juguetona...</td>
+                            <td><img src="images/candy.jpg" id="pic"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Manchas</td>
+                            <td>Macho</td>
+                            <td>3 años</td>
+                            <td>Es muy jugueton, energico y amable</td>
+                            <td><img src="images/Manchas.jpg" id="pic"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="final">
+                    <table >
+                        <tr>
+                            <th> - </th>
+                            <th> - </th>
+                            <th> - </th>
+                            <th> - </th>
+                            <th> - </th>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+
+            <!--Pie de Página-->
+            <footer>
+                <div id="subrayado">
+                    <a href="index.html">Home</a>
+                    <a href="Conciencia.html">Conciencia</a>
+                    <a href="Noticias.html">Noticias</a>
+                    <a href="Galeria.html">Galeria</a>
+                    <a href="Acerca de Nosotros.html">Adoptar</a>
+                    <a class="last" href="#">Acerca de Nosotros</a>
+                </div>
+                <credit>Copyright &copy; <u> Zaguate World</u></credit>            
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+</body>
+</html>
